@@ -1,0 +1,391 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: gilmer;
+}
+
+body{
+    max-width: 1920px;
+    max-height: 1080px;
+}
+
+/* about section starts*/
+.navbar{
+    width: 1920px;
+    height: 151px;
+    background-color: #201C2B;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.nav{
+}
+
+.nav ul{
+    display: flex;
+    flex-direction: row;
+    margin: 64px 0 0 -20px;
+}
+
+.nav ul li{
+    margin: 0 60px 0 0;
+    display: inline-block;
+
+}
+
+.nav ul li  a {
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav-div1{
+    margin-left: 204px;
+}
+
+.logo{
+    
+    margin: 40px 0 0 138px;
+}
+
+.logo img{
+    width: 62.55px;
+    height: 71.4px;
+}
+
+.main{
+    width: 1424px;
+    height: 779px;
+    background: url(Hero\ image\ page\ 1.png) no-repeat ;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.banner{
+    width: 1920px;
+    height: 779px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0000004D;
+}
+
+.gradient{
+    width: 1424px;
+    height: 329px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background: linear-gradient(to right, #2F2941, rgba(255, 255, 255, 0) );
+}
+
+.gradient .heading {
+    margin: 39px 0 0 100px;
+    color: white;
+}
+
+.gradient .heading h1{
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.gradient .heading p{
+    font-size: 33px;
+    font-weight: 700;
+}
+
+.enquiry{
+    padding: 3px;
+    width: 490px;
+    height: 1080px;
+    background-color: #201C2B;
+}
+
+.enq-header{
+    margin: 73px 102px 0 101px;
+    color: white;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.enq{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #CFAF74;
+}
+
+.enq-img{
+    margin: 49px 0 0;
+}
+
+.enq-img img{
+    width: 94.29px;
+    height: 107.63px;
+}
+
+.footer{
+    width: 1424px;
+    height: 153px;
+    background: #272234;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.footer .No{
+    margin: 39px 0 0 35px;
+    display: flex;
+    flex-direction: row;
+    color: #CFAF74;
+}
+
+.footer .No img{
+    width: 14.76px;
+    height: 20.85px;
+    margin: 12px 10.24px 0 0;
+}
+
+.footer img{
+    width: 1px;
+    height: 60px;
+    margin: 45px 0 0 -60px;
+}
+
+.footer .No h1{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+
+.footer .No p{
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+
+.No1 {
+    margin: 39px 0 0 -100px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.form{
+    margin-top: 74px;
+}
+
+.register input{
+    margin: 0 0 30px 43px;
+    line-height: normal;
+    width: 410px;
+    height: 60px;
+    border-radius: 10px;
+    border: solid 0px;
+    background-color: black;
+}
+
+::placeholder{
+    padding: 19px 0 0 20px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.budget{
+    margin: 60px 0 103px 43px;
+    display: flex;
+    flex-direction: column;
+}
+
+.price-div label{
+    margin: 14px 8px 0 0;
+    color: #CFAF74;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.price{
+    margin: 14px 0 0 0;
+}
+
+.price span{
+    color: white;
+    font-size: 15px;
+}
+
+.price span{
+    margin: 0 39px 0 0;
+}
+
+.radio{
+    padding: 1px 2px 0px 2px;
+    width: 16px;
+    height: 16px;
+    background-color: #CFAF74;
+    border-radius: 50%;
+}
+
+.img img{
+    width: 288px;
+    margin: 30px 0 27px 0;
+}
+
+.submit input{
+    margin: 0 0 0 43px;
+    width: 410px;
+    height: 60px;
+    background-color: #CFAF74;
+    border-radius: 10px;
+    border: solid 0px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
+
+/* about section ends*/
+
+/* description section starts*/ 
+
+.description{
+    margin: 153px 0 0 0;
+    width: 1920px;
+    height: 1080px;
+    background-color: #3D3652;
+    display: flex;
+    flex-direction: row;
+}
+
+.title-grp{
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    width: 459px;
+    height: 144px;
+    color: #E8C78B;
+    margin: 289px 0 0 79px;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.describe{
+    width: 430px;
+    height: 372px;
+    margin: 12px 0 0 79px;
+    font-family: 'Gilmer Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+    color: #FFFFFF;
+}
+
+.disc-img img{
+    margin: 271px 0 0 129px;
+    width: 709px;
+    height: 576px;
+    border-radius: 20px;
+}
+
+/*description section ends*/
+
+/*aminities section starts*/
+
+.amenities{
+    width: 1920px;
+    height: 774px;
+    background-color: #3D3652;
+    display: flex;
+    flex-direction: row;
+}
+
+.amenities-div{
+    width: 1425px;
+    height: 774px;
+    background-color: #1B1825;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.amenities-img{
+    margin: -200px 0 0 0;
+    width: 1322px;
+    height: 1080px;
+}
+
+.amenities-img img{
+    width: 1322px;
+    height: 1080px;
+}
+
+
+
+.amenities-title h1{
+    margin: 159px 0 0 112px;
+    font-family: 'Gilmer';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 40px;
+    color: #CFAF74;
+}
+
+.amenities-icon{
+    width: 1062px;
+    height: 120px;
+    background-color: red;
+}
+
+
+/*aminities section ends*/
+
+.features{
+    width: 1920px;
+    height: 774px;
+    background-color: #3D3652;
+    display: flex;
+    flex-direction: row;
+}
+
+.features-div{
+    width: 1425px;
+    height: 774px;
+    background-color: #1B1825;
+    overflow: hidden;
+}
+
+.feat-img{
+    margin: 0 0 0 206px;
+}
+
+.features-img{
+    margin: -200px 0 0 0;
+    width: 1327px;
+    height: 1080px;
+}
+
+.features-img img{
+    width: 1322px;
+    height: 1080px;
+}
+
+
+
+.features-div h1{
+    margin: 159px 0 0 112px;
+    font-family: 'Gilmer';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 40px;
+    color: #CFAF74;
+}
